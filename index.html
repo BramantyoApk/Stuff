@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/skinview3d/bundles/skinview3d.bundle.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Skin Pack Dayat</title>
+</head>
+<body>
+
+<h1 class="title">Dayat Skin Pack</h1>
+
+
+<div class="main-content">
+
+    
+    <div class="left-section">
+        <div class="name">
+            <p>Selected Skin: <span id="skin-name"></span></p>
+        </div>
+        <div class="view-wrapper">
+            <canvas id="skin-canvas"></canvas>
+        </div>
+
+        <div class="action-section">
+            <button id="btn-download">Download Skins</button>
+        </div>
+    </div>
+
+
+        <div class="right-section">
+
+            <div class="grid-container"> 
+                <div class="grid-item" onclick="updateSkin('skin/Hibiki.png', 'slim')"><img class="icon" src="assets/hibiki.png" alt=""></div>   
+                <div class="grid-item" onclick="updateSkin('skin/Isabelle.png', 'slim')"><img class="icon" src="assets/isabelle.png" alt=""></div>   
+                <div class="grid-item" onclick="updateSkin('skin/Maris.png', 'slim')"><img class="icon" src="assets/maris.png" alt=""></div>   
+                <div class="grid-item" onclick="updateSkin('skin/Gent.png', 'slim')"><img class="icon" src="assets/gent.png" alt=""></div>   
+                <div class="grid-item" onclick="updateSkin('skin/Solviet.png', 'slim')"><img class="icon" src="assets/solviet.png" alt=""></div>
+                <div class="grid-item" onclick="updateSkin('skin/Rhandys.png', 'slim')"><img class="icon" src="assets/ren.png" alt=""></div>   
+                <div class="grid-item" onclick="updateSkin('skin/Reffal.png', 'slim')"><img class="icon" src="assets/reff.png" alt=""></div>
+                <div class="grid-item" onclick="updateSkin('skin/Hibiki_Femboy.png', 'slim')"><img class="icon" src="assets/hibikifm.png" alt=""></div>
+                   
+            </div>
+            
+        </div>
+</div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
